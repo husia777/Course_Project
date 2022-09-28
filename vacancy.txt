@@ -1,8 +1,8 @@
 Разработчик Solidity/Разработчик Rust/Разработчик Go/Разработчик python(удаленно)
 None
 https://hh.ru/vacancy/48457284
-{'requirement': 'Solidity (от 3‐х лет) или Rust (от 3‐х лет) или Go (от 3-х лет) или <highlighttext>Python</highlighttext>(от...', 'responsibility': 'Проектировать, кодировать и внедрять бизнес‐приложения. Интегрировать блокчейны с нашей платформой. Работа с API и микросервисами. Разработка и проверка криптографических...'}
-{'requirement': 'Solidity (от 3‐х лет) или Rust (от 3‐х лет) или Go (от 3-х лет) или <highlighttext>Python</highlighttext>(от...', 'responsibility': 'Проектировать, кодировать и внедрять бизнес‐приложения. Интегрировать блокчейны с нашей платформой. Работа с API и микросервисами. Разработка и проверка криптографических...'}
+Solidity (от 3‐х лет) или Rust (от 3‐х лет) или Go (от 3-х лет) или Python(от...Проектировать, кодировать и внедрять бизнес‐приложения. Интегрировать блокчейны с нашей платформой. Работа с API и микросервисами. Разработка и проверка криптографических...
+Solidity (от 3‐х лет) или Rust (от 3‐х лет) или Go (от 3-х лет) или Python(от...Проектировать, кодировать и внедрять бизнес‐приложения. Интегрировать блокчейны с нашей платформой. Работа с API и микросервисами. Разработка и проверка криптографических...
 None
 70000
 https://hh.ru/vacancy/70435894
@@ -12,13 +12,13 @@ Data Analyst (Remote)
 4500
 4500
 None
-{'requirement': 'Глубокое понимание продуктовых и бизнес-метрик. Знание <highlighttext>Python</highlighttext>/R и соответствующих фреймворков для работы с данными (предпочтительно <highlighttext>Python</highlighttext>, бекенд на...', 'responsibility': 'Участвовать в разработке, внедрении и поддержке data-driven процессов в продуктовых командах. Разрабатывать и поддерживать дашборды и системы метрик. '}
+Глубокое понимание продуктовых и бизнес-метрик. Знание Python/R и соответствующих фреймворков для работы с данными (предпочтительно Python, бекенд на...Участвовать в разработке, внедрении и поддержке data-driven процессов в продуктовых командах. Разрабатывать и поддерживать дашборды и системы метрик. 
 Разработчик Python
 Разработчик Python
 None
 https://hh.ru/vacancy/70470356
-{'requirement': 'Минимальное понимание Django + DRF. Понимание работы Celery и настройка в проекте\\. Знание HTML, CSS, Bootstrap, JS.', 'responsibility': 'Разработка платформы на Django + DRF + Celery. Web3.js. Web3 <highlighttext>python</highlighttext>.'}
-{'requirement': 'Минимальное понимание Django + DRF. Понимание работы Celery и настройка в проекте\\. Знание HTML, CSS, Bootstrap, JS.', 'responsibility': 'Разработка платформы на Django + DRF + Celery. Web3.js. Web3 <highlighttext>python</highlighttext>.'}
+Минимальное понимание Django + DRF. Понимание работы Celery и настройка в проекте\. Знание HTML, CSS, Bootstrap, JS.Разработка платформы на Django + DRF + Celery. Web3.js. Web3 pythonPython.
+Минимальное понимание Django + DRF. Понимание работы Celery и настройка в проекте\. Знание HTML, CSS, Bootstrap, JS.Разработка платформы на Django + DRF + Celery. Web3.js. Web3 pythonPython.
 None
 60000
 https://hh.ru/vacancy/69467314
@@ -28,13 +28,13 @@ None
 160000
 160000
 None
-{'requirement': 'Требования: Отличное знание SQL\\T-SQL\\PLPGSQL, опыт не менее 2 лет. Опыт разработки <highlighttext>Python</highlighttext> от 2 лет. Знание ООП. ', 'responsibility': 'Разработка серверной части (<highlighttext>Python</highlighttext>,Django). Проектирование и разработка новой бизнес логики на уровне СУБД PostgreSQL \\ MS SQL. Оптимизация SQL-запросов. '}
+Требования: Отличное знание SQL\T-SQL\PLPGSQL, опыт не менее 2 лет. Опыт разработки Python от 2 лет. Знание ООП. Разработка серверной части (PythonPython,Django). Проектирование и разработка новой бизнес логики на уровне СУБД PostgreSQL \ MS SQL. Оптимизация SQL-запросов. 
 Go разработчик со знаниями Python
 Go разработчик со знаниями Python
 None
 https://hh.ru/vacancy/70456861
-{'requirement': 'Опыт разработки на <highlighttext>Python</highlighttext> и Go от 1-3 лет. Опыт работы с PostgreSQL, MySQL, MongoDB. Знание Django, Flask. ', 'responsibility': 'Переработка и развитие продукта fmobile.kz. В дополнение к основному продукту есть бэклог по дополняющим продуктам (разработка с нуля). '}
-{'requirement': 'Опыт разработки на <highlighttext>Python</highlighttext> и Go от 1-3 лет. Опыт работы с PostgreSQL, MySQL, MongoDB. Знание Django, Flask. ', 'responsibility': 'Переработка и развитие продукта fmobile.kz. В дополнение к основному продукту есть бэклог по дополняющим продуктам (разработка с нуля). '}
+Опыт разработки на Python и Go от 1-3 лет. Опыт работы с PostgreSQL, MySQL, MongoDB. Знание Django, Flask. Переработка и развитие продукта fmobile.kz. В дополнение к основному продукту есть бэклог по дополняющим продуктам (разработка с нуля). 
+Опыт разработки на Python и Go от 1-3 лет. Опыт работы с PostgreSQL, MySQL, MongoDB. Знание Django, Flask. Переработка и развитие продукта fmobile.kz. В дополнение к основному продукту есть бэклог по дополняющим продуктам (разработка с нуля). 
 None
 210000
 https://hh.ru/vacancy/70468088

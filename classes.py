@@ -22,7 +22,8 @@ class HeadHunter(Engine):
             name = response['items'][i]['name']
             salary = response['items'][i]['salary']['from']
             link = response['items'][i]['alternate_url']
-            description = response['items'][i]['snippet']
+            description = str(response['items'][i]['snippet']['requirement']).replace('<highlighttext>', '').replace('</highlighttext>', '') + str(response['items'][i]['snippet']['responsibility']).replace('<highlighttext>', '').replace('</highlighttext>', 'Python')
+            print(description)
             data.extend([name, salary, link, description])
         return data
 
