@@ -1,11 +1,8 @@
-def writing_to_a_file_h(items):
+def writing_to_a_file(items):
     with open('vacancy.txt', 'a+', encoding='utf-8') as file:
         for item in items:
             file.write(str(item) + '\n')
 
-def writing_to_a_file_s(name, salary, link, description):
-    with open('vacancy.txt', 'a+', encoding='utf-8') as file:
-        file.write(str(description) + '\n' + str(salary) + '\n' + str(link) + '\n' + str(name) + '\n')
 
 
 def read_file():
