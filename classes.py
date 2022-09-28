@@ -20,7 +20,7 @@ class HeadHunter(Engine):
         response = response.json()
         for i in range(10):
             name = response['items'][i]['name']
-            salary = response['items'][i]['salary']
+            salary = response['items'][i]['salary']['from']
             link = response['items'][i]['alternate_url']
             description = response['items'][i]['snippet']
             data.extend([name, salary, link, description])
@@ -37,7 +37,7 @@ class SuperJob(Engine):
         html = BeautifulSoup(response.content, 'html.parser')
         for i in range(10):
             name = html.findAll('span', class_='_9fIP1 _249GZ _1jb_5 QLdOc')[i].find('a').text
-            salary = html.findAll('span', class_='_2eYAG _1nqY_ _249GZ _1jb_5 _1dIgi')[i].text.replace('\xa0', ' ')
+            salary = html.findAll('span', class_='_2eYAG _1nqY_ _249GZ _1jb_5 _1dIgi')[i].text.replace('\xa0', ' ').replace('По договорённости', '0').replace(' ', '').replace('от', '').replace('до', '').replace('руб.', '')
             link = 'https://superjob.ru' + html.findAll('span', class_='_9fIP1 _249GZ _1jb_5 QLdOc')[i].find('a').get('href')
             description = html.findAll('span', class_='_1Nj4W _249GZ _1jb_5 _1dIgi _3qTky')[i].text
             data.extend([name, salary, link, description])
@@ -63,14 +63,7 @@ class Vacancy:
         return job_description
 
     def correction_salary_vacancies(self, salary_vacancies):
-        try:
-            if salary_vacancies['from'] == None:
-                salary_vacancies['from'] = 0
-            elif salary_vacancies['to'] == None:
-                salary_vacancies['to'] = 0
-            self.salary_vacancies = str(salary_vacancies['from']) + ' - ' + str(salary_vacancies['to'])
-
-        except:
-            self.salary_vacancies =  0
+        if salary_vacancies == None:
+            self.salary_vacancies = 0
 
 

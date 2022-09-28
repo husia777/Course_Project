@@ -9,12 +9,13 @@ def main():
     for i in range(count_vacancy):
         h = hh.get_request(name_vacancy, i)
         s = ss.get_request(name_vacancy, i)
+        print(h)
         a = 0
         for j in range(10):
             vacancy_hh = Vacancy(h[a], h[a+1], h[a+2], h[a+3])
-            vacancy_ss = Vacancy(s[a], s[a+1], s[a+2], s[a+3])
+            #vacancy_ss = Vacancy(s[a], s[a+1], s[a+2], s[a+3])
             writing_to_a_file_h(vacancy_hh.__repr__())
-            writing_to_a_file_h(vacancy_ss.__repr__())
+            #writing_to_a_file_s(vacancy_ss.__repr__())
             a+=3
 
 
