@@ -1,0 +1,80 @@
+Разработчик Solidity/Разработчик Rust/Разработчик Go/Разработчик python(удаленно)
+None
+https://hh.ru/vacancy/48457284
+{'requirement': 'Solidity (от 3‐х лет) или Rust (от 3‐х лет) или Go (от 3-х лет) или <highlighttext>Python</highlighttext>(от...', 'responsibility': 'Проектировать, кодировать и внедрять бизнес‐приложения. Интегрировать блокчейны с нашей платформой. Работа с API и микросервисами. Разработка и проверка криптографических...'}
+Педагог дополнительного образования (программирование scratch/python, робототехника lego)
+None
+https://superjob.ru/vakansii/pedagog-dopolnitelnogo-obrazovaniya-44818691.html
+Проведение образовательных программ на доп. площадке центра - в п. Ильинское и в г. Жуковский МО. Контроль выполнения учениками…Коммуникабельность, грамотно поставленная речь. Наличие мед.книжки. Желание развиваться и повышать квалификацию. Наличие…
+{'requirement': 'Solidity (от 3‐х лет) или Rust (от 3‐х лет) или Go (от 3-х лет) или <highlighttext>Python</highlighttext>(от...', 'responsibility': 'Проектировать, кодировать и внедрять бизнес‐приложения. Интегрировать блокчейны с нашей платформой. Работа с API и микросервисами. Разработка и проверка криптографических...'}
+None
+{'from': 70000, 'to': 100000, 'currency': 'RUR', 'gross': False}
+https://hh.ru/vacancy/70435894
+Проведение образовательных программ на доп. площадке центра - в п. Ильинское и в г. Жуковский МО. Контроль выполнения учениками…Коммуникабельность, грамотно поставленная речь. Наличие мед.книжки. Желание развиваться и повышать квалификацию. Наличие…
+None
+от 180 000 руб.
+https://superjob.ru/vakansii/razrabotchik-python-41696139.html
+https://hh.ru/vacancy/70435894
+None
+Разработчик Python
+{'from': 160000, 'to': 200000, 'currency': 'RUR', 'gross': True}
+https://superjob.ru/vakansii/razrabotchik-python-41696139.html
+None
+Senior Python Developer
+По договорённости
+{'from': 160000, 'to': 200000, 'currency': 'RUR', 'gross': True}
+None
+{'requirement': 'Требования: Отличное знание SQL\\T-SQL\\PLPGSQL, опыт не менее 2 лет. Опыт разработки <highlighttext>Python</highlighttext> от 2 лет. Знание ООП. ', 'responsibility': 'Разработка серверной части (<highlighttext>Python</highlighttext>,Django). Проектирование и разработка новой бизнес логики на уровне СУБД PostgreSQL \\ MS SQL. Оптимизация SQL-запросов. '}
+Data Analyst (Remote)
+По договорённости
+None
+Развитие системы сбора и подготовки данных (импорты, предварительные расчеты данных). Имплементация ETL, Data пайплайновОбщий опыт коммерческой разработки от 3-х лет. Отличные знания Python 3. Опыт работы с Django, DRF, Aiohttp, celery. Опыт…
+Back-end разработчик (python) (в офисе)
+Data Analyst (Remote)
+None
+https://hh.ru/vacancy/70449444
+{'requirement': 'Глубокое понимание продуктовых и бизнес-метрик. Знание <highlighttext>Python</highlighttext>/R и соответствующих фреймворков для работы с данными (предпочтительно <highlighttext>Python</highlighttext>, бекенд на...', 'responsibility': 'Участвовать в разработке, внедрении и поддержке data-driven процессов в продуктовых командах. Разрабатывать и поддерживать дашборды и системы метрик. '}
+Back-end разработчик (python) (в офисе)
+None
+https://superjob.ru/vakansii/back-end-razrabotchik-44698442.html
+Создание REST API. Работа с базами данных (PostgreSQL). Интеграция с внешними API и сторонними сервисамиОпыт работы с SQL, PostgreSQL, flask (желательно). Опыт работы с Rest API. Высшее образование. Для кандидатов мужского пола…
+{'requirement': 'Глубокое понимание продуктовых и бизнес-метрик. Знание <highlighttext>Python</highlighttext>/R и соответствующих фреймворков для работы с данными (предпочтительно <highlighttext>Python</highlighttext>, бекенд на...', 'responsibility': 'Участвовать в разработке, внедрении и поддержке data-driven процессов в продуктовых командах. Разрабатывать и поддерживать дашборды и системы метрик. '}
+None
+{'from': None, 'to': 30000, 'currency': 'RUR', 'gross': False}
+https://hh.ru/vacancy/70470356
+Создание REST API. Работа с базами данных (PostgreSQL). Интеграция с внешними API и сторонними сервисамиОпыт работы с SQL, PostgreSQL, flask (желательно). Опыт работы с Rest API. Высшее образование. Для кандидатов мужского пола…
+None
+от 20 000 руб.
+https://superjob.ru/vakansii/pedagog-na-napravlenie-python-43502923.html
+https://hh.ru/vacancy/70470356
+None
+Junior Python разработчик (Django)
+{'from': 60000, 'to': None, 'currency': 'RUR', 'gross': True}
+https://superjob.ru/vakansii/pedagog-na-napravlenie-python-43502923.html
+None
+Специалист по обработке данных R, Python, SPSS
+По договорённости
+{'from': 60000, 'to': None, 'currency': 'RUR', 'gross': True}
+None
+{'requirement': 'Знание <highlighttext>Python</highlighttext>3. Базовое владение HTML, CSS. В компании есть отдельные FrontEnd разработчики, но желательно уметь читать их код. ', 'responsibility': 'МЕДРОКЕТ - платформа IT-решений для медицины. Мы разрабатываем и развиваем цифровые продукты для клиник, врачей и пациентов: сайт отзывов ПроДокторов...'}
+Go разработчик со знаниями Python
+По договорённости
+None
+Участие в разработке системы критериев и показателей для оценивания эффективности деятельности по психологическому сопровождению…Высшее психологическое или социологическое образование. Владение современными цифровыми инструментами (Microsoft Office,…
+Fullstack-разработчик Python/Vue.js
+Go разработчик со знаниями Python
+None
+https://hh.ru/vacancy/70456861
+{'requirement': 'Опыт разработки на <highlighttext>Python</highlighttext> и Go от 1-3 лет. Опыт работы с PostgreSQL, MySQL, MongoDB. Знание Django, Flask. ', 'responsibility': 'Переработка и развитие продукта fmobile.kz. В дополнение к основному продукту есть бэклог по дополняющим продуктам (разработка с нуля). '}
+Fullstack-разработчик Python/Vue.js
+None
+https://superjob.ru/vakansii/fullstack-razrabotchik-python-44750769.html
+Реализация новых функций продукта; Разработка и доработка текущего продукта. Интеграция с внешними источниками данных (парсинг…Python;Vue.js; Quasar; JavaScript; Django Framework; PostgreSQL; CSS
+{'requirement': 'Опыт разработки на <highlighttext>Python</highlighttext> и Go от 1-3 лет. Опыт работы с PostgreSQL, MySQL, MongoDB. Знание Django, Flask. ', 'responsibility': 'Переработка и развитие продукта fmobile.kz. В дополнение к основному продукту есть бэклог по дополняющим продуктам (разработка с нуля). '}
+None
+{'from': 210000, 'to': 360000, 'currency': 'RUR', 'gross': True}
+https://hh.ru/vacancy/70468088
+Реализация новых функций продукта; Разработка и доработка текущего продукта. Интеграция с внешними источниками данных (парсинг…Python;Vue.js; Quasar; JavaScript; Django Framework; PostgreSQL; CSS
+None
+По договорённости
+https://superjob.ru/vakansii/uchitel-informatiki-i-robototehniki-38641581.html
