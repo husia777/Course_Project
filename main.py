@@ -16,7 +16,7 @@ def main():
             #vacancy_ss = Vacancy(s[a], s[a+1], s[a+2], s[a+3])
             writing_to_a_file_h(vacancy_hh.__repr__())
             #writing_to_a_file_s(vacancy_ss.__repr__())
-            a+=3
+            a+=4
 
 
 if __name__ == '__main__':

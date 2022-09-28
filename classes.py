@@ -20,10 +20,9 @@ class HeadHunter(Engine):
         response = response.json()
         for i in range(10):
             name = response['items'][i]['name']
-            salary = response['items'][i]['salary']['from']
+            salary = 0 if response['items'][i]['salary']['from'] == None else response['items'][i]['salary']['from']
             link = response['items'][i]['alternate_url']
             description = str(response['items'][i]['snippet']['requirement']).replace('<highlighttext>', '').replace('</highlighttext>', '') + str(response['items'][i]['snippet']['responsibility']).replace('<highlighttext>', '').replace('</highlighttext>', 'Python')
-            print(description)
             data.extend([name, salary, link, description])
         return data
 
@@ -52,19 +51,13 @@ class Vacancy:
 
     def __init__(self, job_title, salary_vacancies, link_to_the_vacancy, job_description):
         self.job_title = job_title
-        self.salary_vacancies = self.correction_salary_vacancies(salary_vacancies)
+        self.salary_vacancies = salary_vacancies
         self.link_to_the_vacancy = link_to_the_vacancy
-        self.job_description = self.correction_job_description(job_description)
+        self.job_description = job_description
 
 
     def __repr__(self):
         return self.job_title, self.salary_vacancies, self.link_to_the_vacancy, self.job_description
 
-    def correction_job_description(self, job_description):
-        return job_description
-
-    def correction_salary_vacancies(self, salary_vacancies):
-        if salary_vacancies == None:
-            self.salary_vacancies = 0
 
 
