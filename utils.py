@@ -8,7 +8,8 @@ def writing_to_a_file(items):
 
 def read_file():
     with open('vacancy.txt', 'r', encoding='utf-8') as file:
-        print(file.read().split('\n'))
+        for i in file.read().split('\n'):
+            print(i)
 
 
 def clear_file():

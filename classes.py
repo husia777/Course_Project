@@ -20,9 +20,7 @@ class HeadHunter(Engine):
         response = response.json()
         for i in range(10):
             name = response['items'][i]['name']
-            salary = 0 if  response['items'][i]['salary'].values() == None else response['items'][i]['salary'].values()
-            print(salary)
-            print(type(salary))
+            salary = 0 if  response['items'][i]['salary'] is None else response['items'][i]['salary']
             link = response['items'][i]['alternate_url']
             description = [str(v).strip('None') for v in response['items'][i]['snippet'].values()]
             data.extend([name, salary, link, *description])

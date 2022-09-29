@@ -18,6 +18,6 @@ def main():
             writing_to_a_file(vacancy_ss.__repr__())
             a+=4
 
-
+    read_file()
 if __name__ == '__main__':
     main()
