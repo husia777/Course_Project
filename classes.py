@@ -20,10 +20,13 @@ class HeadHunter(Engine):
         response = response.json()
         for i in range(10):
             name = response['items'][i]['name']
-            salary = 0 if  response['items'][i]['salary'] is None else response['items'][i]['salary']
+            try:
+                salary = response['items'][i]['salary']['from']
+            except:
+                salary = 0
             link = response['items'][i]['alternate_url']
-            description = [str(v).strip('None') for v in response['items'][i]['snippet'].values()]
-            data.extend([name, salary, link, *description])
+            description = [str(v).strip('None').strip('<highlighttext>').strip('</highlighttext>') for v in response['items'][i]['snippet'].values()]
+            data.extend([name, salary, link, description])
         return data
 
 
@@ -57,7 +60,7 @@ class Vacancy:
 
 
     def __repr__(self):
-        return str(self.job_title) + '/' + str(self.salary_vacancies)  + '/' +  str(self.link_to_the_vacancy) + '/' +  str(self.job_description) + '/'
+        return str(self.job_title) + '*' + str(self.salary_vacancies)  + '*' +  str(self.link_to_the_vacancy) + '*' +  str(self.job_description) + '*'
 
 
 
