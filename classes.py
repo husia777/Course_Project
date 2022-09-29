@@ -15,12 +15,14 @@ class HeadHunter(Engine):
     def get_request(self, name_prof, i):
         data = []
         par = {'per_page': '10', 'page': str(i)}
-        api = 'https://api.hh.ru/vacancies?text=' + name_prof
+        api = f'https://api.hh.ru/vacancies?text={name_prof}'
         response = requests.get(api, params=par)
         response = response.json()
         for i in range(10):
             name = response['items'][i]['name']
-            salary = response['items'][i]['salary']['from']
+            salary = 0 if  response['items'][i]['salary'].values() == None else response['items'][i]['salary'].values()
+            print(salary)
+            print(type(salary))
             link = response['items'][i]['alternate_url']
             description = [str(v).strip('None') for v in response['items'][i]['snippet'].values()]
             data.extend([name, salary, link, *description])
@@ -57,7 +59,7 @@ class Vacancy:
 
 
     def __repr__(self):
-        return self.job_title, self.salary_vacancies, self.link_to_the_vacancy, self.job_description
+        return str(self.job_title) + '/' + str(self.salary_vacancies)  + '/' +  str(self.link_to_the_vacancy) + '/' +  str(self.job_description) + '/'
 
 
 
