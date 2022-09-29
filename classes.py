@@ -40,7 +40,7 @@ class SuperJob(Engine):
         html = BeautifulSoup(response.content, 'html.parser')
         for i in range(10):
             name = html.findAll('span', class_='_9fIP1 _249GZ _1jb_5 QLdOc')[i].find('a').text
-            salary = html.findAll('span', class_='_2eYAG _1nqY_ _249GZ _1jb_5 _1dIgi')[i].text.replace('\xa0', ' ').replace('По договорённости', '0').replace(' ', '').replace('от', '').replace('до', '').replace('руб.', '')
+            salary = html.findAll('span', class_='_2eYAG _1nqY_ _249GZ _1jb_5 _1dIgi')[i].text.replace('\xa0', ' ').replace('По договорённости', '0').replace(' ', '').replace('от', '').replace('до', '').replace('руб.', '').split('—')[0]
             link = 'https://superjob.ru' + html.findAll('span', class_='_9fIP1 _249GZ _1jb_5 QLdOc')[i].find('a').get('href')
             description = html.findAll('span', class_='_1Nj4W _249GZ _1jb_5 _1dIgi _3qTky')[i].text.replace('<highlighttext>', '').replace('</highlighttext>', '')
             data.extend([name, salary, link, description])

@@ -31,6 +31,8 @@ def main():
         read_file()
     elif cmd == 2:
         random_10()
+    elif cmd == 3:
+        top_10()
     elif cmd == 4:
         clear_file()
 
