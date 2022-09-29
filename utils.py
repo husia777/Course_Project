@@ -17,12 +17,17 @@ def clear_file():
 
 
 
-def top_10():
-    b = []
-    with open('vacancy.txt', 'r', encoding='utf-8') as file:
-        content = file.readlines()
-        for line in content:
-            print(line.split('\n'))
+# def top_10():
+#     b = []
+#     with open('vacancy.txt', 'r', encoding='utf-8') as file:
+#         content = file.readlines()
+#         for line in content:
+#             s = line.split(',')[1]
+#             try:
+#                 res = map(int(s), s)
+#             except:
+#                 continue
+#     print(dict(res))
 
 def random_10():
     with open('vacancy.txt', 'r', encoding='utf-8') as file:
@@ -30,8 +35,5 @@ def random_10():
         r = random.sample(content, 10)
         for i in r:
             print(str(i).strip())
+clear_file()
 
-
-
-top_10()
-#random_10()
