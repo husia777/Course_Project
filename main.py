@@ -6,7 +6,10 @@ def main():
     ss = SuperJob()
     name_vacancy = input('Введите название вакансии по которой нужно осуществить поиск>>>')
     count_vacancy_h = int(input('Введите количество страниц для поиска на сайте HeadHunter в каждой странице по 10 вакансий>>>'))
-    count_vacancy_s = int(input('Введите количество страниц для поиска на сайте SuperJob максимальное количество страниц 3>>>'))
+    count_vacancy_s = int(input('Введите количество страниц для поиска на сайте SuperJob максимальное количество страниц 2 если превысить макимум по умолчанию будет 2 страницы>>>'))
+    if count_vacancy_s > 2:
+        print('Превышен лимит по умолчанию установленно значение 2')
+        count_vacancy_s = 2
     for i in range(count_vacancy_s):
         s = ss.get_request(name_vacancy, i)
         b = 0
