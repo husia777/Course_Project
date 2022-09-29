@@ -9,7 +9,7 @@ def writing_to_a_file(items):
 def read_file():
     with open('vacancy.txt', 'r', encoding='utf-8') as file:
         for i in file.read().split('\n'):
-            print(i)
+            print(i.replace('*', '  '))
 
 
 def clear_file():
@@ -27,8 +27,8 @@ def top_10():
                 pass
             except:
                 continue
-            print(line.split('*')[1])
-            print(type(line.split('*')[1]))
+            #print(line.split('*')[1])
+            #print(type(line.split('*')[1]))
 
 def random_10():
     with open('vacancy.txt', 'r', encoding='utf-8') as file:
