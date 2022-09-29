@@ -4,7 +4,7 @@ from  utils import *
 def main():
     hh = HeadHunter()
     ss = SuperJob()
-    name_vacancy = 'python' #input('Введите название вакансии по которой нужно осуществить поиск>>>')
+    name_vacancy = 'грузчик' #input('Введите название вакансии по которой нужно осуществить поиск>>>')
     count_vacancy = 1 #int(input('Введите количество страниц для поиска на двух сайтах в каждой странице по 10 вакансий из двух сайтов в итоге 20 вакансий с одной страницы>>>'))
     for i in range(count_vacancy):
         h = hh.get_request(name_vacancy, i)

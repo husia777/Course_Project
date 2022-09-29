@@ -22,8 +22,8 @@ class HeadHunter(Engine):
             name = response['items'][i]['name']
             salary = 0 if response['items'][i]['salary']['from'] == None else response['items'][i]['salary']['from']
             link = response['items'][i]['alternate_url']
-            description = str(response['items'][i]['snippet']['requirement']).replace('<highlighttext>', '').replace('</highlighttext>', '') + str(response['items'][i]['snippet']['responsibility']).replace('<highlighttext>', '').replace('</highlighttext>', 'Python')
-            data.extend([name, salary, link, description])
+            description = [str(v).strip('None') for v in response['items'][i]['snippet'].values()]
+            data.extend([name, salary, link, *description])
         return data
 
 
