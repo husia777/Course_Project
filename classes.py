@@ -12,7 +12,12 @@ class Engine(ABC):
 
 class HeadHunter(Engine):
 
-    def get_request(self, name_prof, i):
+    def get_request(self, name_prof: str, i: int) -> list[str]:
+        """
+        :param name_prof: Имя вакансии
+        :param i: Количество страниц сайта для обработки
+        :return: Выдаёт 10 вакансий
+        """
         data = []
         par = {'per_page': '10', 'page': str(i)}
         api = f'https://api.hh.ru/vacancies?text={name_prof}'
@@ -32,7 +37,12 @@ class HeadHunter(Engine):
 
 class SuperJob(Engine):
 
-    def get_request(self, name_prof, i):
+    def get_request(self, name_prof: str, i: int) -> list[str]:
+        """
+        :param name_prof: Имя вакансии
+        :param i: Количество страниц сайта для обработки
+        :return: Выдаёт 10 вакансий
+        """
         data = []
         par = {'per_page': '10', 'page': str(i)}
         api = f'https://russia.superjob.ru/vacancy/search/?keywords={name_prof}'

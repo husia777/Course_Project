@@ -1,25 +1,41 @@
 import random
 import operator
 
-def writing_to_a_file(items):
+
+def writing_to_a_file(items:str) -> None:
+    """
+    Функция записи 10 вакансий в файл
+    :param items: Принимает строку
+    :return:
+    """
     with open('vacancy.txt', 'a+', encoding='utf-8') as file:
         file.write(str(items)+'\n')
 
 
-
-def read_file():
+def read_file() -> None:
+    """
+    Функция вывода содержимого файла
+    :return: Принтует вакансии
+    """
     with open('vacancy.txt', 'r', encoding='utf-8') as file:
         for i in file.read().split('\n'):
             print(i.replace('*', '  '))
 
 
-def clear_file():
+def clear_file() -> None:
+    """
+    Функция очистки файла
+    :return: Ничего не выводит
+    """
     with open('vacancy.txt', 'w', encoding='utf-8') as file:
         file.write('')
 
 
-
-def top_10():
+def top_10() -> None:
+    """
+    Функция вывода 10 вакансий с самой большой зарплатой
+    :return:
+    """
     sorted_list = []
     with open('vacancy.txt', 'r', encoding='utf-8') as file:
         content = file.readlines()
@@ -33,7 +49,11 @@ def top_10():
             print(item)
 
 
-def random_10():
+def random_10() -> None:
+    """
+    Функция вывода 10 рандомных вакансий
+    :return: Принтует вакансии
+    """
     with open('vacancy.txt', 'r', encoding='utf-8') as file:
         content = file.readlines()
         r = random.sample(content, 10)
