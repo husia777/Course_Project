@@ -2,14 +2,14 @@ import random
 import operator
 
 
-def writing_to_a_file(items:str) -> None:
+def writing_to_a_file(items: str) -> None:
     """
     Функция записи 10 вакансий в файл
     :param items: Принимает строку
     :return:
     """
     with open('vacancy.txt', 'a+', encoding='utf-8') as file:
-        file.write(str(items)+'\n')
+        file.write(str(items) + '\n')
 
 
 def read_file() -> None:
